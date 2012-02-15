@@ -1,0 +1,325 @@
+.container .ucMain .ucMenu {
+	float: left;
+	width: 180px;
+	border: 1px solid #AAAAAA;
+	padding-bottom: 5px;
+}
+.container .ucMain .ucRight {
+	float: right;
+	width: 773px;
+	border: 1px solid #AAAAAA;
+}
+.container .ucMain {
+	border-top-width: 1px;
+	border-top-style: none;
+	border-top-color: #AAAAAA;
+}
+.container .ucMain .ucMenu .item .head {
+	height: 40px;
+	background-image: url(../images/icon.jpg);
+	background-repeat: no-repeat;
+	background-position: -3px -272px;
+	line-height: 25px;
+	font-size: 14px;
+	text-indent: 7px;
+}
+.container .ucMain .ucMenu .item .title {
+	background-image: url(../images/icon.jpg);
+	background-repeat: no-repeat;
+	background-position: -862px -184px;
+	padding-left: 24px;
+	font-family: "微软雅黑", "华文细黑", "Times New Roman";
+	font-weight: bold;
+	line-height: 25px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E7E7E7;
+}
+.container .ucMain .ucMenu .item .sub {
+	line-height: 22px;
+	padding-left: 25px;
+}
+.container .ucMain .ucMenu .item .head .icon {
+	font-weight: bold;
+	color: #FF0099;
+	line-height: 30px;
+	background-image: url(../images/icon.jpg);
+	background-repeat: no-repeat;
+	background-position: -863px -140px;
+	padding-left: 28px;
+}
+.container .ucMain .ucRight .head {
+	height: 40px;
+	background-image: url(../images/icon.jpg);
+	background-repeat: no-repeat;
+	background-position: -3px -272px;
+	line-height: 32px;
+	font-size: 12px;
+	text-indent: 7px;
+}
+.container .ucMain .ucRight .list {
+	padding-top: 10px;
+	padding-right: 8px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	position: relative;
+}
+.container .ucMain .ucRight .head .icon {
+	font-weight: bold;
+	line-height: 30px;
+	background-image: url(../images/icon.jpg);
+	background-repeat: no-repeat;
+	background-position: -861px -86px;
+	padding-left: 22px;
+}
+
+.container .ucMain .ucRight .setting label {
+	font-weight: bold;
+	width: 110px;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+}
+.container .ucMain .ucRight .setting .input{
+	position: relative;
+	padding-top: 4px;
+	padding-bottom: 10px;
+}
+.container .ucMain .ucRight .setting .button {
+	height: 65px;
+	width: 80px;
+	background-image: url(../images/icon.jpg);
+	background-repeat: no-repeat;
+	background-position: -680px -43px;
+	cursor:pointer;
+	z-index: 500;
+	margin-left: 120px;
+}
+
+.container .ucMain .ucRight .list * {
+	line-height:1.5em;
+	text-align:left;
+}
+.container .ucMain .ucRight .list table th {
+	background-color: #F9FAFC;
+	line-height: 28px;
+	padding-right: 5px;
+	padding-left: 6px;
+}
+.container .ucMain .ucRight .list table td {
+	background-color: #FFFFFF;
+	line-height: 25px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.container .ucMain .ucRight .list .pageShow {
+	font-size: 12px;
+	font-family: "微软雅黑", "华文细黑", "Times New Roman";
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.container .ucMain .ucRight .list .pageShow .optionShow {
+	float: left;
+}
+.container .ucMain .ucRight .list .userInfo {
+	padding: 5px;
+	background-color: #FCFFE0;
+	border: 1px solid #dbe1e6;
+	margin-bottom: 10px;
+}
+.container .ucMain .ucRight .list .goodsPic {
+	padding: 5px;
+}
+.container .ucMain .ucRight .list .skin-blue .small-long-btn {
+	background-image: url(../images/icon.jpg);
+	line-height: 21px;
+	height: 21px;
+	width: 61px;
+	background-position: -343px -60px;
+	background-repeat: no-repeat;
+	display:block;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+.container .ucMain .ucRight .list .skin-yellow .small-long-btn {
+	background-image: url(../images/icon.jpg);
+	line-height: 21px;
+	height: 21px;
+	width: 61px;
+	background-position: -273px -60px;
+	background-repeat: no-repeat;
+	display:block;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+.container .ucMain .ucRight .list .skin-gray .small-long-btn {
+	background-image: url(../images/icon.jpg);
+	line-height: 21px;
+	height: 21px;
+	width: 61px;
+	background-position: -414px -60px;
+	background-repeat: no-repeat;
+	display:block;
+	color:#999999;
+	text-align: center;
+	font-family: Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+.optionShow input {
+	vertical-align:-2px;
+}
+.container .ucMain .ucRight .list .videoThumb {
+	height: 90px;
+	width: 120px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.container .ucMain .ucRight .list .filterTab ul {
+}
+.container .ucMain .ucRight .list .filterTab .filterItem {
+	width: 75px;
+	float: left;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	text-align: center;
+	line-height: 20px;
+	font-weight: bold;
+}
+.container .ucMain .ucRight .list .filterTab {
+
+}
+.container .ucMain .ucRight .list .filterTab ul {
+	margin: 0px;
+	padding: 0px;
+}
+.container .ucMain .ucRight .list .filterTab {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	height: 20px;
+}
+
+/*会员中心评论管理*/
+.container .ucMain .ucRight .list .commnetList .published {
+	float: right;
+	padding-right: 5px;
+	font-size: 90%;
+	line-height: 28px;
+}
+.container .ucMain .ucRight .list .commnetList .commentDetail {
+	border: 1px dashed #E7E7E7;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 2px;
+	padding-left: 2px;
+	position: relative;
+	clear: both;
+}
+.container .ucMain .ucRight .list .commnetList {
+	padding-top: 15px;
+}
+.container .ucMain .ucRight .list .commnetList .commentItem {
+	padding-bottom: 12px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.container .ucMain .ucRight .list .commnetList .commentItem .commentDetail .thumb {
+	float: left;
+	width: 65px;
+	height:45px;
+	margin-right: 10px;
+	border: 1px solid #E7E7E7;
+	padding: 2px;
+}
+.container .ucMain .ucRight .list .goodsThumb {
+	height: 80px;
+	width: 80px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.container .ucMain .order .orderDetail {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 8px;
+	padding-left: 20px;
+} 
+.container .ucMain .order .list .options input {
+	border-color: #E186B1 #751B4C #751B4C #E186B1;
+	border-style: solid;
+	border-width: 2px;
+	color: #FFFFFF;
+	cursor: pointer;
+	letter-spacing: 0.1em;
+	background-attachment: scroll;
+	background-color: #FF0099;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+	font-family: "微软雅黑", "华文细黑", "Times New Roman";
+	font-weight: bold;
+	padding-top: 1px;
+	padding-right: 1em;
+	padding-bottom: 1px;
+	padding-left: 1em;
+	text-align: center;
+}
+.container .ucMain .order .list .options {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.container .ucMain .order .orderDetail .item {
+	line-height: 25px;
+}
+.container .ucMain .ucRight .account_detail {
+	position: relative;
+	line-height: 22px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+}
+.container .ucMain .ucRight .account_detail .myface {
+	float: left;
+	height: 57px;
+	width: 57px;
+	margin-right: 15px;
+}
+.container .ucMain .ucRight .account_detail .myface img {
+	border: 1px solid #E7E7E7;
+}
+.container .ucMain .ucRight .account_detail .username {
+	font-weight: bold;
+}
+.container .ucMain .ucRight .list .title {
+	line-height: 28px;
+	text-indent: 3px;
+	font-weight: bold;
+}
+.container .ucMain .ucRight .list .setting .myface {
+	height: 65px;
+	width: 70px;
+	position: absolute;
+	left: 350px;
+	top: 16px;
+}
+.container .ucMain .ucRight .list .setting .myface .img {
+	border: 1px solid #E7E7E7;
+	padding: 2px;
+}
+.container .ucMain .ucRight .list .setting .myface .options {
+	line-height: 22px;
+	text-align: center;
+}
+.container .ucMain .ucRight .list .setting .myface .status {
+	text-align: center;
+}

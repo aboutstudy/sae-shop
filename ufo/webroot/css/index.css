@@ -1,0 +1,206 @@
+@charset "utf-8";
+body {
+	font-size: 14px;
+}
+body a{	text-decoration: none;color: #000000;}
+.message{ text-align:center; line-height:30px;}
+th a{ color:#FFFFFF;}
+th{text-align:left; background-color:#9DC5FF; line-height:1.8em; padding-left:5px;}
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color:#666666;
+	font-size:12px;
+}
+.div_c{clear:both;}
+body a:hover{
+	text-decoration:underline;
+	color:#0000FF;	
+}
+.light{
+	color:red;
+}
+.light a{
+	color:red;
+}
+.options {
+	padding:15px 0 5px 0;
+}
+#container {
+	height: auto;
+	width: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border: 1px solid #003366;
+}
+.top-nav-td {
+	text-align: center;
+	width: 60px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-family: "黑体", "华文细黑", "微软雅黑", "宋体";
+}
+.top-nav-2-td {
+	text-align: center;
+	width: 80px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.title {
+	background-color: #9DC5FF;
+	font-family: "黑体", "华文细黑", "微软雅黑", "宋体";
+	line-height: 1.7em;
+	text-indent: 5px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 1px solid #003366;
+}
+.class-title {
+	background-color: #9DC5FF;
+	font-family: "黑体", "华文细黑", "微软雅黑", "宋体";
+	line-height: 1.7em;
+	text-indent: 5px;
+	font-weight: bold;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin-top: 5px;
+	border: 1px solid #003366;
+}
+.class-title a {
+	color:#FFFFFF;
+}
+
+.content {
+	padding-top: 8px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #003366;
+	border-bottom-color: #003366;
+	border-left-color: #003366;
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+.list-content {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #003366;
+	border-bottom-color: #003366;
+	border-left-color: #003366;
+	margin-bottom: 5px;
+	margin-top:0px;
+	padding-top:0px;
+	font-size: 12px;
+	display:none;
+}
+.list-td {
+	font-size: 12px;
+	line-height: 2em;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #003366;
+	text-indent: 10px;
+}
+
+
+
+#nav {
+	font-size: 14px;
+	line-height: 1.7em;
+	text-decoration: none;
+	text-indent: 10px;
+	border: 1px dashed #003366;
+}
+#menu {
+	margin-top: 10px;
+	background-color: #9DC5FF;
+	border: 1px solid #003366;
+}
+.menu-function {
+	font-family: "微软雅黑", "华文细黑", "宋体";
+	font-size: 14px;
+	line-height: 2em;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	width: 120px;
+}
+.class-menu-function {
+	font-family: "黑体", "华文细黑", "微软雅黑", "宋体";
+	font-size: 14px;
+	text-indent: 0px;	
+	line-height: 1.8em;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #9DC5FF;
+}
+#main {
+	padding: 5px;
+	border: 1px solid #003366;
+	margin-top: 15px;
+}
+#main td {
+	font-size: 13px;
+	line-height: 2em;
+	text-indent: 5px;
+	background-color: #FFFFFF;
+}
+
+/*表单样式*/
+#main .input{
+	padding:3px 0;
+}
+#main label{
+	width:80px;
+	font-weight:bold;
+	display:block;
+	float:left;
+	padding:3px 0;
+}
+#main textarea,
+#main input{
+	font-size:12px;
+	color:#666;
+}
+
+#main #infolist .option .page{
+	float:right;
+}
+
+#main #infolist .option{
+	line-height:25px;
+	padding:5px 5px;
+}
+#main .select {
+	position:relation;
+}
+#main .select .checkbox {
+	font-size:12px;
+	float:left;
+	margin-right:5px;
+	padding-right:10px;
+	margin-top:1px;	
+}
+#main .select .checkbox label{
+	font-weight:normal;
+	display:block;
+	float:left;
+	padding:3px 0;
+	width:auto;
+}

@@ -1,0 +1,15 @@
+<?php
+class Weibo extends AppModel{
+	var $name = 'Weibo';
+		
+	var $belongsTo = array(
+		'Article' => array(
+			'className' => 'Article',
+			'foreignKey' => 'article_id'
+		),
+		'Video' => array(
+			'className' => 'Video',
+			'foreignKey' => 'video_id'
+		)
+	);
+}
